@@ -18,6 +18,7 @@ bot:
 ```
 
 ## Run standalone
+* Put credentials in .env file and run:
 ```bash
 ./gradlew build -x test && docker compose up -d
 ```
