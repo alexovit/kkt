@@ -1,0 +1,8 @@
+bot:
+  token: ${TELEGRAM_TOKEN}
+  username: test-bot
+  chat-id: ${TELEGRAM_CHANNEL_ID}
+kafka:
+  consumer:
+    group-id: testingGroup
+  bootstrap-servers: ${KAFKA_HOST:localhost:9092}
